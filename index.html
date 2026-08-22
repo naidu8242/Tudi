@@ -1,75 +1,131 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Tudi Trust</title>
-  <link rel="stylesheet" href="css/styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trust Foundation</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:Arial,sans-serif;
+  line-height:1.6;
+}
+
+header{
+  background:#0066cc;
+  color:white;
+  text-align:center;
+  padding:30px;
+}
+
+nav{
+  background:#004a99;
+  padding:15px;
+  text-align:center;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  margin:0 15px;
+  font-weight:bold;
+}
+
+section{
+  padding:50px 20px;
+}
+
+.hero{
+  background:#f4f4f4;
+  text-align:center;
+}
+
+.donate-btn{
+  display:inline-block;
+  background:#28a745;
+  color:white;
+  padding:12px 25px;
+  text-decoration:none;
+  border-radius:5px;
+  margin-top:15px;
+}
+
+footer{
+  background:#222;
+  color:white;
+  text-align:center;
+  padding:15px;
+}
+</style>
 </head>
+
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a href="index.html" class="brand">
-        <img src="assets/logo.svg" alt="Tudi Trust logo" class="logo">
-        <span>Tudi Trust</span>
-      </a>
-      <nav class="nav">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="trustees.html">Trustees</a>
-        <a href="projects.html">Projects</a>
-        <a href="donate.html" class="btn">Donate</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-      <button class="nav-toggle" aria-label="Open navigation">☰</button>
-    </div>
-  </header>
 
-  <main>
-    <section class="hero">
-      <div class="container">
-        <h1>Building stronger communities through action and care</h1>
-        <p class="lead">Tudi Trust supports community-led projects in education, health, and sustainable livelihoods.</p>
-        <p><a href="donate.html" class="btn btn-primary">Donate Now</a> <a href="about.html" class="btn">Learn More</a></p>
-      </div>
-    </section>
+<header>
+  <h1>Trust Foundation</h1>
+  <p>Helping Communities Grow</p>
+</header>
 
-    <section class="container features">
-      <article>
-        <h2>Our Mission</h2>
-        <p>Support grassroots initiatives that create lasting, equitable change.</p>
-      </article>
-      <article>
-        <h2>Current Projects</h2>
-        <p>Education scholarships, community clinics, and skills training programs.</p>
-        <p><a href="projects.html">See projects</a></p>
-      </article>
-      <article>
-        <h2>Meet the Trustees</h2>
-        <p>Experienced leaders guiding Tudi Trust's work with transparency.</p>
-        <p><a href="trustees.html">Meet the team</a></p>
-      </article>
-    </section>
+<nav>
+  #homeHome</a>
+  #aboutAbout Us</a>
+  #missionMission & Vision</a>
+  #servicesPrograms</a>
+  #donateDonate</a>
+  #contactContact</a>
+</nav>
 
-    <section class="container about-preview">
-      <h2>Why support us?</h2>
-      <p>Funds are allocated transparently and monitored to ensure measurable community impact. Your contributions support programs that are locally-led and sustainably managed.</p>
-    </section>
-  </main>
+<section id="home" class="hero">
+  <h2>Welcome to Trust Foundation</h2>
+  <p>Supporting education, healthcare, and social welfare.</p>
+</section>
 
-  <footer class="site-footer">
-    <div class="container">
-      <p>&copy; <span id="year"></span> Tudi Trust — All rights reserved.</p>
-      <p><a href="contact.html">Contact</a> · <a href="donate.html">Donate</a></p>
-    </div>
-  </footer>
+<section id="about">
+  <h2>About Us</h2>
+  <p>
+    Trust Foundation is dedicated to improving lives through
+    education, healthcare support, and community development.
+  </p>
+</section>
 
-  <script>
-    // Small script to set current year and basic nav toggle
-    document.getElementById('year').textContent = new Date().getFullYear();
-    document.querySelector('.nav-toggle').addEventListener('click', function(){
-      document.querySelector('.nav').classList.toggle('open');
-    });
-  </script>
+<section id="mission">
+  <h2>Mission & Vision</h2>
+  <p><strong>Mission:</strong> Empower communities through sustainable development.</p>
+  <p><strong>Vision:</strong> A better future for every individual.</p>
+</section>
+
+<section id="services">
+  <h2>Our Programs</h2>
+  <ul>
+    <li>Education Support</li>
+    <li>Health Awareness Campaigns</li>
+    <li>Community Development Projects</li>
+    <li>Women & Youth Empowerment</li>
+  </ul>
+</section>
+
+<section id="donate">
+  <h2>Support Our Cause</h2>
+  <p>Your contribution helps us reach more people.</p>
+  #Donate Now</a>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: info@trustfoundation.org</p>
+  <p>Phone: +91 98765 43210</p>
+  <p>Address: Hyderabad, Telangana, India</p>
+</section>
+
+<footer>
+  <p>© 2026 Trust Foundation. All Rights Reserved.</p>
+</footer>
+
 </body>
 </html>
